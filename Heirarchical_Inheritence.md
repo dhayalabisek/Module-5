@@ -31,6 +31,67 @@ To write a Python program that uses **Hierarchical Inheritance** to input and di
 5. Display collected information using class methods.
 
 ## Program
-Add code here
+```
+class Details:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def getName(self):
+        return self.name
+
+    def getAge(self):
+        return self.age
+
+
+class Employee(Details):
+    def __init__(self, name, age, employee_id, department):
+        super().__init__(name, age)
+        self.employee_id = employee_id
+        self.department = department
+
+    def getEmployeeDetails(self):
+        print("Name:", self.getName())
+        print("Age:", self.getAge())
+        print("Employee ID:", self.employee_id)
+        print("Department:", self.department)
+
+
+class Patient(Details):
+    def __init__(self, name, age, patient_id, disease):
+        super().__init__(name, age)
+        self.patient_id = patient_id
+        self.disease = disease
+
+    def getPatientDetails(self):
+        print("Name:", self.getName())
+        print("Age:", self.getAge())
+        print("Patient ID:", self.patient_id)
+        print("Disease:", self.disease)
+
+
+ename = input("Enter employee name: ")
+eage = int(input("Enter employee age: "))
+eid = input("Enter employee ID: ")
+edept = input("Enter department: ")
+
+pname = input("Enter patient name: ")
+page = int(input("Enter patient age: "))
+pid = input("Enter patient ID: ")
+pdisease = input("Enter disease: ")
+
+emp = Employee(ename, eage, eid, edept)
+pat = Patient(pname, page, pid, pdisease)
+
+print("\nEmployee Details")
+emp.getEmployeeDetails()
+
+print("\nPatient Details")
+pat.getPatientDetails()
+```
 ## Sample Output
+<img width="1168" height="909" alt="image" src="https://github.com/user-attachments/assets/c9d072f7-bc3b-458b-b76f-138dcbbbceac" />
+<img width="904" height="748" alt="image" src="https://github.com/user-attachments/assets/89d1944d-b31c-4ff7-b2f2-7d48be9b5c13" />
+## Result
+Hence the program is written and executed successfully 
 
