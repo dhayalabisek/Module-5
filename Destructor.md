@@ -35,5 +35,6 @@ del d
 ```
 ## 🧪 Output
 <img width="994" height="865" alt="image" src="https://github.com/user-attachments/assets/e42431c8-9055-41e0-b235-c1051aad4776" />
+
 ## Result
 Hence the program is written and executed successfully 
