@@ -92,6 +92,7 @@ pat.getPatientDetails()
 ## Sample Output
 <img width="1168" height="909" alt="image" src="https://github.com/user-attachments/assets/c9d072f7-bc3b-458b-b76f-138dcbbbceac" />
 <img width="904" height="748" alt="image" src="https://github.com/user-attachments/assets/89d1944d-b31c-4ff7-b2f2-7d48be9b5c13" />
+
 ## Result
 Hence the program is written and executed successfully 
 
